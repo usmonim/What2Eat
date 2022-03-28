@@ -84,7 +84,7 @@ int main(int argc, char* argv[]){
             printf("Food: %s is %d points\n", preferences[i].meal, preferences[i].points);
             above_ten += 1;
             short_preferences[above_ten].meal = preferences[i].meal;
-            short_preferences[above_ten].points = preferences[i].points;
+            short_preferences[above_ten].points = 0;
         }
         
     }
